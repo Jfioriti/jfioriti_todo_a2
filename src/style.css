@@ -1,0 +1,36 @@
+body {
+     font-family: "Delius Swash Caps", cursive;
+     font-size: larger;
+     margin: 0%;
+     background-image: url('./lib/linedpaper.jpg');
+     text-align: center;
+     background-repeat: repeat;
+     display: block;
+}
+
+h1 {
+     margin: 0%;
+     padding-top: 3.4vw;
+}
+
+ul{
+     text-align: left;
+     margin: 0%;
+}
+
+li {
+     padding-top: 25px;
+     font-size: larger;
+}
+
+.main {
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+}
+
+@media screen and (max-width: 2600px){
+     h1 {
+          padding-top: 60px;
+     }
+}
